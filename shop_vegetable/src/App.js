@@ -1,12 +1,10 @@
 import React from "react";
-import User from "./pages";
+import RouteCustom from "./route";
 
 function App() {
   return (
-    <div className="App">
-      <h3>
-        <User />
-      </h3>
+    <div>
+      <RouteCustom />
     </div>
   );
 }

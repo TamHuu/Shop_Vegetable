@@ -1,13 +1,10 @@
-import React from "react";
-
+import { memo } from "react";
 function HomePage() {
   return (
     <div>
-      <p>HEADER</p>
       <p>BODY</p>
-      <p>Footer</p>
     </div>
   );
 }
 
-export default HomePage;
+export default memo(HomePage);
